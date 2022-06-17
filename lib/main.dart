@@ -1,7 +1,8 @@
 import 'package:flutter/material.dart';
+import 'package:time_pass/MenuDemo.dart';
 
 void main() {
-  runApp(
+  runApp(MenuDemo());
       //this is section simple print the text on the screen
       // MaterialApp(
       //   home: Scaffold(
@@ -19,9 +20,9 @@ void main() {
       //     ),
       //   ),
       // )
-      const MaterialApp(
-    home: Scaffold(
-        body: SafeArea(
+    //   const MaterialApp(
+    // home: Scaffold(
+    //     body: SafeArea(
       // child: Center(
       // child: Container(
       //   color: Colors.green,
@@ -41,10 +42,10 @@ void main() {
       //       color: Colors.blue,
       //       width: 300,
       //       height: 100,
-      child: Center(
-        child: Image(
-            image: NetworkImage(
-                ' https://telanganatoday.com/wp-content/uploads/2022/04/Google-multisearch-tool-to-help-users-search-with-photos.jpg')),
+      // child: Center(
+      //   child: Image(
+      //       image: NetworkImage(
+      //           ' https://telanganatoday.com/wp-content/uploads/2022/04/Google-multisearch-tool-to-help-users-search-with-photos.jpg')),
 
         // child: Text(
         //            "Google search engin",
@@ -53,7 +54,8 @@ void main() {
         //                fontSize: 26,
         //                fontStyle: FontStyle.italic),
         //          ),
-      ),
-    )),
-  ));
+  //     ),
+  //   )),
+  // )
+
 }
