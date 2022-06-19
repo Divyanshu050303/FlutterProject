@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-
+import 'package:time_pass/screen/screen1.dart';
 class screen0 extends StatelessWidget{
   String?title;
   screen0({Key?key, this.title}):super(key:key);
