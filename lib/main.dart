@@ -1,25 +1,49 @@
 // import 'dart:js';
 
 import 'package:flutter/material.dart';
-import 'package:time_pass/MenuDemo.dart';
-import 'package:time_pass/screen/homeScreen.dart';
-import 'package:time_pass/screen/screen0.dart';
-import 'package:time_pass/screen/screen1.dart';
-import 'package:time_pass/screen/screen2.dart';
+// import 'package:time_pass/MenuDemo.dart';
+import 'package:time_pass/myTaskBar.dart';
+// import 'package:time_pass/screen/homeScreen.dart';
+// import 'package:time_pass/screen/screen0.dart';
+// import 'package:time_pass/screen/screen1.dart';
+// import 'package:time_pass/screen/screen2.dart';
+
+import 'BottomNavigaton.dart';
+import 'ListTitleDemo.dart';
 
 void main() {
   runApp(
-    MaterialApp(
-      home: homeScreen(),
-      routes: {
-        's0':(context)=>screen0(title: "Settings"),
-        's1':(context)=> screen1(title:'Gallery'),
-        's2':(context)=> screen2(title:'About Phone'),
-      },
-    ),
+      const MaterialApp(
+        home: MyTaskBar(),
+      )
   );
+  //listTile
+  // runApp(
+  //   const MaterialApp(
+  //     home: ListTitleDemo(),
+  //   )
+  // );
+  //BottomNavigation
+  // runApp(
+  //   const MaterialApp(
+  //     home: BottomNavigation(),
+  //   )
+  // );
+
+  //screen
+
+  // runApp(
+  //   MaterialApp(
+  //     home: homeScreen(),
+  //     routes: {
+  //       's0':(context)=>screen0(title: "Settings"),
+  //       's1':(context)=> screen1(title:'Gallery'),
+  //       's2':(context)=> screen2(title:'About Phone'),
+  //     },
+  //   ),
+  // );
   // runApp(MenuDemo());
-      //this is section simple print the text on the screen
+      // this is section simple print the text on the screen
       // MaterialApp(
       //   home: Scaffold(
       //     appBar: AppBar(
