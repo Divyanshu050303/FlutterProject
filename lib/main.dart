@@ -3,6 +3,7 @@
 import 'package:flutter/material.dart';
 import 'package:time_pass/DataTableDemo.dart';
 import 'package:time_pass/DrawerDemo.dart';
+import 'package:time_pass/TextWidget.dart';
 // import 'package:time_pass/MenuDemo.dart';
 import 'package:time_pass/myTaskBar.dart';
 // import 'package:time_pass/screen/homeScreen.dart';
@@ -21,7 +22,7 @@ void main() {
 //  );
 runApp(
       const MaterialApp(
-        home: MyTaskBar(),
+        home: TextWidget(),
       )
   );
   //listTile
