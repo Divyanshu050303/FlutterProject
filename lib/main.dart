@@ -13,6 +13,7 @@ import 'package:time_pass/myTaskBar.dart';
 
 import 'BottomNavigaton.dart';
 import 'ListTitleDemo.dart';
+import 'SI_Calculator.dart';
 
 void main() {
   // runApp(
@@ -22,7 +23,7 @@ void main() {
 //  );
 runApp(
       const MaterialApp(
-        home: TextWidget(),
+        home: SI_Calculator(),
       )
   );
   //listTile
